@@ -40,7 +40,7 @@ function App() {
   }
 
   //mensaje condicional
-  const titulo =  citas.length === 0 ? 'No hay cita papi' : "sape";
+  const titulo =  citas.length === 0 ? 'No hay citas' : "Agenda actualizada";
 
   return (
     <div className="App">
